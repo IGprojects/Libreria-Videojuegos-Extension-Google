@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria de Videojuegos</title>
+</head>
+<style type="text/css">
+   body{
+        height: 300px;
+        width: 220px;
+        background-color: rgb(89, 40, 135);
+        font-size: 20px;
+        font-family:'Geneva';
+
+    }
+    div{
+        text-align: center;   
+    }
+    h2{
+        text-align: center;
+    }
+    input{
+        padding: 7px;
+        border-radius: 15px;
+    }
+    #butobyscarjuego{
+        padding: 7px;
+        border-radius: 15px;
+    }
+    #infojuego{
+        text-decoration-line: initial;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h2>Libreria de Videojuegos</h2>
+    <div>
+        <form>
+            <input id="juego" type="text" class="form-control" placeholder="Introduce un juego..." required>
+            <br>
+            <br>
+            <button class="btn btn-primary" id="butobyscarjuego" type="submit">Buscar</button>    
+        </form>
+    </div>
+    <br>
+    <p id="infojuego"></p>
+</body>
+<script src='app.js'></script>
+</html>

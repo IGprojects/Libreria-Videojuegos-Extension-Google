@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Libreria de Videojuegos",
+    "version": "1.0",
+    "description": "Esta extensión te permite buscar infomación de cualquier videojuego.",
+    "author": "Ignasi Ferrés Iglesias - IGPROJECTS",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Libreria de Videojuegos"
+    }
+}
